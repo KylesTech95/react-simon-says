@@ -1,7 +1,7 @@
 {
   "name": "simon",
   "version": "0.1.0",
-  "homepage": "https://KylesTech95.github.io/simon-says-reactJS",
+  "homepage": "https://KylesTech95.github.io/react-simon-says",
   "private": true,
   "dependencies": {
     "@apollo/client": "^3.8.7",
