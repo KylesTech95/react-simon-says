@@ -1,0 +1,513 @@
+/*Media Queries for mobile devices*/ 
+  /*_______________________________*/
+  /*iPhone 12/13 Pro Max- landscape*/
+  @media screen and (max-width: 940px) and (max-height: 435px){
+    .tile{
+      height: 125px;
+      width: 125px;
+    }
+    .space-evenly{
+      gap: 15rem;
+    }
+    .centered{
+      gap: 1rem;
+    }
+    .App{
+      margin-left: 7rem;
+    }
+    #gameboard-container{
+      gap: 7.5px;
+    }
+    header{
+      left: -5rem;
+      top: 7rem;
+    }
+
+    .sub-text{
+      margin-top: 5rem;
+    }
+    #controls-wrapper{
+      margin: 1rem 0;
+      margin-top: 2rem;
+    }
+    #controls-wrapper>div>span{
+      transform: scale(3.25);
+    }
+    .level{
+      bottom: 25px;
+    }
+  }
+  /*iPhone 12/13 Pro Max- portrait*/
+  @media screen and (max-width: 440px) and (max-height:944px){
+    .tile{
+      height: 150px;
+      width: 150px;
+    }
+    .App{
+      gap: 2rem;
+    }
+    .space-evenly{
+      gap: 5rem;
+    }
+    #gameboard-container{
+      gap: 7.5px;
+    }
+    .centered{
+      gap: 1rem;
+    }
+    #controls-wrapper{
+      margin-bottom: -4rem;
+    }
+    .toggle-container{
+      right: 40%;
+      bottom: 10%
+    }
+  }
+  /*iPhone 12 - landscape*/
+  @media screen and (max-width: 900px) and (max-height:420px){
+    .tile{
+      height: 125px;
+      width: 125px;
+    }
+    .space-evenly{
+      gap: 5rem;
+    }
+    #gameboard-container{
+      gap: 7.5px;
+    }
+    
+    .centered{
+      gap: 1rem;
+    }
+    #controls-wrapper{
+      margin-bottom: 2rem;
+      margin-top: 3rem;
+    }
+    .toggle-container{
+      right: 40%;
+      bottom: 10%
+    }
+    .toggle-container{
+      top: 2rem;
+      right: 22%;
+    }
+    .level{
+      bottom: 30px;
+    }
+  }
+  /*iPhone 12- portrait*/
+  @media screen and (max-width: 390px) and (max-height:844px){
+    .tile{
+      height: 135px;
+      width: 135px;
+    }
+    .App{
+      gap: 2rem;
+    }
+    .space-evenly{
+      gap: 5rem;
+    }
+    #gameboard-container{
+      gap: 7.5px;
+    }
+    .centered{
+      gap: 1rem;
+    }
+    #controls-wrapper{
+      margin-bottom: -4rem;
+    }
+    .toggle-container{
+      right: 40%;
+      bottom: 10%
+    }
+    header{
+      top: 4rem;
+    }
+  }
+  /*iPhone 12 - landscape*/
+  @media screen and (max-width: 743px) and (max-height:344px){
+    .tile{
+      height: 135px;
+      width: 125px;
+    }
+    .space-evenly{
+      gap: 5rem;
+    }
+    .App{
+      margin-top: 1rem;
+    }
+    #gameboard-container{
+      gap: 7.5px;
+    }
+    .sub-text{
+      margin:2rem;
+    }
+    .centered{
+      gap: 1rem;
+    }
+    header{
+      top: 3rem;
+    }
+    #controls-wrapper{
+      margin-bottom: 2rem;
+      margin-top: 2rem;
+    }
+    .toggle-container{
+      right: 40%;
+      bottom: 10%
+    }
+    .toggle-container{
+      top: 2rem;
+      right: 22%;
+    }
+    .level{
+      bottom: 10px;
+    }
+  }
+  /*iPhone 12- portrait*/
+  @media screen and (max-width: 344px) and (max-height:743px){
+    .tile{
+      height: 135px;
+      width: 135px;
+    }
+    .App{
+      gap: 2rem;
+    }
+    .space-evenly{
+      gap: 5rem;
+    }
+    #gameboard-container{
+      gap: 7.5px;
+    }
+    .centered{
+      gap: 1rem;
+    }
+    #controls-wrapper{
+      margin-bottom: -4rem;
+    }
+    .toggle-container{
+      right: 40%;
+      bottom: 10%
+    }
+    header{
+      top: 4rem;
+    }
+  }
+   /*_______________________________*/
+    /* Samsung Galaxy S8 - landscape
+    @media screen and (max-width: 750px) and (max-height: 370px){
+      .tile{
+        height: 140px;
+        width: 140px;
+      }
+      #gameboard-container{
+        margin-top: 1rem;
+        gap: 7.5px;
+      }
+      .space-evenly{
+        gap: 25rem;
+      }
+      .centered{
+        gap: 1rem;
+      }
+      #controls-wrapper{
+        margin: 1rem 0;
+      }
+      #controls-wrapper>div>span{
+        transform: scale(3.25);
+      }
+      header{
+        left: 10px;
+        max-width: 200px;
+      }
+      .sub-text{
+        margin-top:4rem;
+      }
+      
+      .level{
+        bottom: 10px;
+      }
+      .App{
+        margin-left: 1.5rem;
+      }
+    } */
+
+  /*_______________________________*/
+  /*iPhone 12/13 Pro Mini- landscape*/
+  @media screen and (max-width: 820px) and (max-height: 385px){
+  }
+  /*iPhone 12/13 Pro Mini- portrait*/
+  @media screen and (max-width: 385px) and (max-height: 820px){
+  }
+  /*_______________________________*/
+  /*iPhone 12/13 + Pro- landscape*/
+  @media screen and (max-width: 850px) and (max-height: 395px){
+  }
+  /*iPhone 12/13 + Pro- portrait*/
+  @media screen and (max-width: 395px) and (max-height: 850px){
+  }
+  /*_______________________________*/
+  /*iPad - portrait*/
+  @media screen and (max-width: 896px) and (max-height: 1245px){
+  }
+ /*_______________________________*/
+  /*iPad - landscape*/
+  @media screen and (max-width: 1245px) and (max-height: 896px){
+  }
+  /*Galaxy S20+ Android 11 - landscape*/
+  @media screen and (max-width: 896px) and (max-height: 1245px){
+  }
+  /*Galaxy S20+ Android 11 - portrait*/
+  @media screen and (max-width: 384px) and (max-height: 854px){
+  }
+/* 
+  @media screen and (max-width: 450px) and (max-height: 920px){
+    .tile{
+      height: 125px;
+      width: 125px;
+    }
+    #controls-wrapper{
+      margin-bottom:-30px;
+      margin-top: -15px;
+    }
+    .App{
+      gap: 0;
+      
+    }
+    .space-evenly{
+      gap: 1.5rem;
+    }
+    .centered{
+      gap: 1rem;
+    }
+    header{
+      font-size: 12px;
+      width: 100%;
+      left: 0;
+    }
+    .sub-text{
+      margin-top:1rem;
+    }
+    #gameboard-container{
+      gap: 3.5px;
+      margin: 0 0 2.75rem 0;
+    }
+    
+  } */
+  /* @media screen and (max-width: 920px) and (max-height: 450px){
+    header{
+      font-size: 12px;
+      left: 40px;
+    }
+    #controls-wrapper{
+      margin-bottom:-15px;
+    }
+  } */
+
+   /*Samsung Galaxy S5/Moto G4 - Portrait*/
+   @media screen and (max-width: 370px) and (max-height: 650px){
+    .tile{
+      height: 150px;
+      width: 150px;
+
+    }
+    #gameboard-container{
+      margin-top: 1rem;
+      gap: 7.5px;
+    }
+    .space-evenly{
+      gap: 2rem;
+    }
+    .centered{
+      gap: 1rem;
+    }
+    #controls-wrapper>div>span{
+      margin-top: 1rem;
+    }
+    header{
+      left: 0;
+    }
+    .App{
+      margin-left: 1.5rem;
+    }
+  }
+    /*Samsung Galaxy S5/Moto G4 - Landscape*/
+    @media screen and (max-width: 650px) and (max-height: 370px){
+      .tile{
+        height: 130px;
+        width: 130px;
+  
+      }
+      .sub-text{
+        margin:3rem;
+      }
+      #gameboard-container{
+        margin-top: 1rem;
+        gap: 7.5px;
+      }
+      .space-evenly{
+        gap: 3rem;
+      }
+      .centered{
+        gap: 1rem;
+      }
+      #controls-wrapper>div>span{
+        margin-top: -30px;
+        margin-bottom: 4rem;
+      }
+      header{
+        left:-20px;
+      }
+      .App{
+          gap: 1rem;
+      }
+
+    }
+
+    /* iPHone X - Landscape 
+    @media screen and (max-width: 830px) and (max-height: 380px){
+      .tile{
+        height: 130px;
+        width: 130px;
+  
+      }
+      .sub-text{
+        margin:1rem 0;
+      }
+      #gameboard-container{
+        margin-top: 1rem;
+        gap: 7.5px;
+      }
+      .space-evenly{
+        gap: 7rem;
+      }
+      .centered{
+        gap: 1rem;
+      }
+      #controls-wrapper>div>span{
+        margin-top: -50px;
+        margin-bottom: 4rem;
+      }
+      
+      .App{
+          gap: 2rem;
+          
+      }
+
+    } */
+    /* iPHone X - Portrait*/ 
+    @media screen and (max-width: 380px) and (max-height: 830px){
+      .tile{
+        height: 130px;
+        width: 130px;
+  
+      }
+      .sub-text{
+        margin:1rem 0;
+      }
+      #gameboard-container{
+        margin-top: 1rem;
+        gap: 7.5px;
+      }
+      .space-evenly{
+        gap: 7rem;
+      }
+      .centered{
+        gap: 1rem;
+      }
+      #controls-wrapper>div>span{
+        margin-top: -30px;
+        margin-bottom: 4rem;
+      }
+      
+      .App{
+          gap: 2rem;
+      }
+
+    }
+
+    
+    /*Custom Size Half Screen*/
+    /* @media screen and (max-width: 1180px) and (max-height: 640px){
+      header{
+        width: 100%;
+        left: 0;
+
+      }
+      .sub-text{
+        margin: 1rem;
+      }
+      .tile{
+        height:150px;
+        width:150px;
+      }
+      #gameboard-container{
+        margin-top: 4rem;
+        gap: 7.5px;
+      } 
+    
+    
+    } */
+
+    @media screen and (max-width: 500px) and (max-height: 600px){
+      header{
+        width: 100%;
+        left: 0;
+        top: 20px;
+
+      }
+      .sub-text{
+        margin: 1rem;
+      }
+      .tile{
+        height:185px;
+        width:185px;
+      }
+      #gameboard-container{
+        margin-top: 8rem;
+        gap: 7.5px;
+      } 
+      #controls-wrapper{
+        margin-bottom: -6rem;
+        margin-top: -1rem;
+      }
+      .space-evenly{
+        gap: 7rem;
+      }
+      .centered{
+        gap: 1rem;
+      }
+    
+    
+    }
+    /* @media screen and (max-width: 821px) and (max-height: 650px){
+      header{
+        width: 100%;
+        left: 0;
+        top: 3rem;
+
+      }
+      .sub-text{
+        margin: 1rem;
+      }
+      .tile{
+        height:185px;
+        width:185px;
+      }
+      #gameboard-container{
+        margin-top: 8rem;
+        gap: 7.5px;
+      } 
+      #controls-wrapper{
+        margin-bottom: -6rem;
+        margin-top: -1rem;
+      }
+      .space-evenly{
+        gap: 7rem;
+      }
+      .centered{
+        gap: 1rem;
+      }
+    
+    
+    } */
