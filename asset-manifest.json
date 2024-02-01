@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/simon-says-reactJS/static/css/main.56998696.css",
-    "main.js": "/simon-says-reactJS/static/js/main.932687a8.js",
-    "static/js/787.123358da.chunk.js": "/simon-says-reactJS/static/js/787.123358da.chunk.js",
-    "index.html": "/simon-says-reactJS/index.html",
-    "main.56998696.css.map": "/simon-says-reactJS/static/css/main.56998696.css.map",
-    "main.932687a8.js.map": "/simon-says-reactJS/static/js/main.932687a8.js.map",
-    "787.123358da.chunk.js.map": "/simon-says-reactJS/static/js/787.123358da.chunk.js.map"
+    "main.css": "/react-simon-says/static/css/main.56998696.css",
+    "main.js": "/react-simon-says/static/js/main.199bcfb1.js",
+    "static/js/787.123358da.chunk.js": "/react-simon-says/static/js/787.123358da.chunk.js",
+    "index.html": "/react-simon-says/index.html",
+    "main.56998696.css.map": "/react-simon-says/static/css/main.56998696.css.map",
+    "main.199bcfb1.js.map": "/react-simon-says/static/js/main.199bcfb1.js.map",
+    "787.123358da.chunk.js.map": "/react-simon-says/static/js/787.123358da.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.56998696.css",
-    "static/js/main.932687a8.js"
+    "static/js/main.199bcfb1.js"
   ]
 }
