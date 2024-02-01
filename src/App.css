@@ -153,6 +153,10 @@ header{
     left:0;
   }
 }
+/*landscape mode iphone 12pro*/
+@media (max-height:450px) and (max-width:950px){
+  
+}
 
 
 
